@@ -62,7 +62,7 @@ class JusoScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('주소 검색')),
-      body: JusoWebView(),
+      body: const JusoWebView(),
     );
   }
 }
