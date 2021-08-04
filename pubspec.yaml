@@ -1,7 +1,7 @@
 name: juso
 description: Flutter package for address search in Korea
-
 version: 1.0.0+1
+repository: https://github.com/appano1/juso
 
 environment:
   sdk: ">=2.13.0 <3.0.0"
