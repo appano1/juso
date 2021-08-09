@@ -1,4 +1,4 @@
-[English](https://github.com/appano1/juso/blob/main/README.md) | [한국어](https://github.com/appano1/juso/translations/ko_KR/README.md)
+[English](https://github.com/appano1/juso/blob/main/README.md) | [한국어](https://github.com/appano1/juso/blob/main/translations/ko_KR/README.md)
 
 # JUSO
 
