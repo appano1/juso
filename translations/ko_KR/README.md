@@ -2,11 +2,11 @@
 
 # JUSO
 
-Flutter package for address search in Korea
+대한민국 우편번호 서비스를 위한 플러터 패키지입니다.
 
-## Usage
+## 사용방법
 
-Use `JusoWebView` for using [Kakao Korean address API](https://postcode.map.daum.net/guide)
+`JusoWebView`로 [카카오 우편번호 서비스](https://postcode.map.daum.net/guide)를 이용하세요.
 
 ```dart
 const Scaffold(
@@ -15,7 +15,7 @@ const Scaffold(
 );
 ```
 
-`JusoWebView` will return `Juso` instance.
+`JusoWebView`는 `Juso` 인스턴스를 반환합니다.
 
 ```dart
 TextButton(
@@ -33,19 +33,19 @@ TextButton(
 );
 ```
 
-Use `address` when you want only basic address.
+단순히 기본 주소만 이용하길 원한다면 `address`를 이용하세요.
 
 ```dart
-if (juso != null) Text('Address: ${juso!.address}');
+if (juso != null) Text('주소: ${juso!.address}');
 ```
 
-Otherwise, following [this guide](https://postcode.map.daum.net/guide) for using  details of `Juso`.
+세부 정보를 이용하고 싶으시다면, 해당 [가이드](https://postcode.map.daum.net/guide)에서 `Juso`의 세부 정보를 확인해보세요.
 
 ## Setup
 
 ### IOS
 
-Add following codes to your `Info.plist`
+아래 코드를 `Info.plist`에 추가해주세요.
 
 ```plist
 <key>NSAppTransportSecurity</key>
@@ -61,8 +61,7 @@ Add following codes to your `Info.plist`
 
 ### Android
 
-Android API level should be upper than 19
-Please check your `<app dir>/android/app`
+`<app dir>/android/app`에서 안드로이드 API 수준을 19 이상으로 설정해주세요.
 
 ```gradle
 android {
