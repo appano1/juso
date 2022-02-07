@@ -47,7 +47,7 @@ Otherwise, following [this guide](https://postcode.map.daum.net/guide) for using
 
 Add following codes to your `Info.plist`
 
-```plist
+```xml
 <key>NSAppTransportSecurity</key>
 <dict>
   <!-- add this key to allow loading of local resources -->
