@@ -47,7 +47,7 @@ if (juso != null) Text('주소: ${juso!.address}');
 
 아래 코드를 `Info.plist`에 추가해주세요.
 
-```plist
+```xml
 <key>NSAppTransportSecurity</key>
 <dict>
   <!-- add this key to allow loading of local resources -->
